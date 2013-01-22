@@ -1,11 +1,13 @@
 require 'sinatra'
 
 before do
-  @lunch = ["Ruby", 
-            "BLT", 
-            "Itsu", 
-            "Silvio's", 
-            "Fuzzy's"]
+  @lunch = ["Ebene Cafe",
+            "Le FouQuet Akwa",
+            "Pizza day a Chococho", 
+            "Saker Akwa", 
+            "White House Bonaprisso", 
+            "Belavie Bonanjo", 
+            "Le provincial Bonanjo"]
 end
 
 get '/' do
